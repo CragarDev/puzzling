@@ -38,7 +38,7 @@ public class Puzzle {
     }
 
     // Generates a list of 10 numbers from 1 - 20 ---
-    public ArrayList getTenRolls() {
+    public ArrayList<Integer> getTenRolls() {
         // Generate a list of 10 random numbers between 1 and 20 inclusive
 
         // new ArrayList
@@ -122,7 +122,7 @@ public class Puzzle {
     }
 
     // generates an array with 8 random letter words to the length of the arg
-    public ArrayList getNewPasswordSet(int length) {
+    public ArrayList<String> getNewPasswordSet(int length) {
         // return an array of n length with 8 random letter words
         // start by setting up the Array to the length parameter
         ArrayList<String> myArray = new ArrayList<String>();
